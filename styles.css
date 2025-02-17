@@ -9,49 +9,92 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
 }
 
 .container {
-  margin: 2rem;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   padding: 2rem;
-  width: 300px;
-  height: 400px;
-  background-color: rgb(120, 165, 165);
-  border: 2px solid rgb(101, 139, 139);
+  text-align: center;
+  position: relative;
 }
 
 .search {
   display: flex;
-  align-content: center;
+  justify-content: center;
 }
 
 .search input {
-  text-align: center;
+  flex: 1;
+  padding: 0.6rem 1rem;
   font-size: 1rem;
-  border: none;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px 0 0 8px;
   outline: none;
+  transition: border-color 0.3s;
+}
+
+.search input:focus {
+  border-color: #f0f0f0;
 }
 
 .search img {
-  padding: 0.7rem;
-  margin-left: 0.7rem;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 0.8rem;
   width: 45px;
   height: 45px;
+  border: 2px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.search img:hover {
+  transform: scale(1.1);
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
 }
 
 .weather-image {
+  margin: 1rem 0;
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
-  padding: 1rem;
 }
 
 .weather-image img {
+  display: none;
   width: 60%;
+  transition: transform 0.3s;
+}
+
+.weather-image img:hover {
+  transform: scale(1.05);
 }
 
 .temperature {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  text-align: center;
+  color: #333;
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.temperature span {
+  font-size: 1.5rem;
+  vertical-align: top;
+  margin-left: 0.3rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #666;
+  text-transform: capitalize;
 }
