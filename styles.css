@@ -39,6 +39,11 @@ body {
   transition: border-color 0.3s;
 }
 
+.search input::placeholder {
+  text-align: center;
+  color: #888;
+}
+
 .search input:focus {
   border-color: #f0f0f0;
 }
