@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
 }
 
@@ -31,7 +33,6 @@ body {
 .search input {
   flex: 1;
   padding: 0.6rem 1rem;
-  font-size: 1rem;
   text-align: center;
   border: 2px solid #ccc;
   border-radius: 8px 0 0 8px;
@@ -102,4 +103,93 @@ body {
   font-size: 1.1rem;
   color: #666;
   text-transform: capitalize;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .search input {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .search img {
+    width: 40px;
+    height: 40px;
+    padding: 0.6rem;
+  }
+
+  .weather-image img {
+    width: 70%;
+  }
+
+  .temperature {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+    padding: 2rem;
+  }
+
+  .search input {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+
+  .search img {
+    width: 42px;
+    height: 42px;
+    padding: 0.7rem;
+  }
+
+  .weather-image img {
+    width: 65%;
+  }
+
+  .temperature {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 320px;
+  }
+
+  .search input {
+    font-size: 1.1rem;
+    padding: 0.7rem;
+  }
+
+  .search img {
+    width: 45px;
+    height: 45px;
+    padding: 0.8rem;
+  }
+
+  .weather-image img {
+    width: 60%;
+  }
+
+  .temperature {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
 }
