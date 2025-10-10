@@ -9,10 +9,6 @@ This is a simple weather application that allows users to search for the current
 - ⛅️ Dynamic weather icon based on conditions.
 - 🎨 Modern and responsive design.
 
-## 📷 Screenshot
-
-![Weather App Preview](screenshot.png)
-
 ## 🛠 Technologies Used
 
 - HTML
