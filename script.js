@@ -13,7 +13,7 @@ search.addEventListener("click", () => {
     return;
   }
 
-  const api_key = "api key here";
+  const api_key = "YOUR_API_KEY";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${api_key}`;
 
   fetch(url)

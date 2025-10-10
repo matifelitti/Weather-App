@@ -24,11 +24,11 @@ This is a simple weather application that allows users to search for the current
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/your-username/Weather-App.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd weather-app
+   cd Weather-App
    ```
 3. Add your OpenWeatherMap API key in the `script.js` file:
    ```js
@@ -50,11 +50,3 @@ Contributions are welcome! If you want to improve the application:
 2. Create a new branch (`git checkout -b feature-new`).
 3. Make your changes and commit (`git commit -m 'Added new feature'`).
 4. Submit a pull request.
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-💡 _If you like this project, don't forget to give it a star ⭐ on GitHub!_
