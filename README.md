@@ -20,7 +20,7 @@ This is a simple weather application that allows users to search for the current
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/Weather-App.git
+   git clone https://github.com/matifelitti/Weather-App.git
    ```
 2. Navigate to the project directory:
    ```sh
